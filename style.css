@@ -1,0 +1,37 @@
+body{
+    background-color: chocolate;
+}
+
+#score{
+    font-size: 40px;
+    float: left;
+    margin-left: 25px;
+    font-weight: 200;
+}
+
+#timer{
+    font-size: 40px;
+    float: right;
+    margin-right: 30px;
+    font-weight: 200;
+}
+
+.Sketch_to_be_drawn{
+    font-weight: bolder;
+    color: maroon;
+}
+
+canvas{
+    border: 5px black;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
